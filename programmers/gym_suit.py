@@ -13,6 +13,3 @@ def solution(n, lost, reserve):
             set_lost.remove(p)
     
     return n - len(set_lost)
-
-
-# 테스트케이스 11, 13, 14, 15, 16 실패 (75/100)

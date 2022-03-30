@@ -32,4 +32,3 @@ def solution2(phone_book):
             if x in hash_map and x != phone_number:
                 return False
     return True
-    return True

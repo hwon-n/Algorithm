@@ -12,6 +12,6 @@ def solution(a, b):
         6: 'SUN'
     }
     
-    time = datetime.strptime(f'2016-{a}-{b}', '%Y-%m-%d').weekday()
+    date = datetime.strptime(f'2016-{a}-{b}', '%Y-%m-%d').weekday()
     
-    return dateDict[time]
+    return dateDict[date]

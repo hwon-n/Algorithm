@@ -9,8 +9,7 @@ def solution(a, b):
         3: 'THU',
         4: 'FRI',
         5: 'SAT',
-        6: 'SUN'
-    }
+        6: 'SUN'}
     
     date = datetime.strptime(f'2016-{a}-{b}', '%Y-%m-%d').weekday()
     
